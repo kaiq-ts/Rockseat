@@ -4,7 +4,7 @@
     color: #573A37;
 }
 
-body {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -28,14 +28,15 @@ body {
     border-radius: 16px;
 }
 
-.article {
+main {
     padding: 0 24px;
 }
 
 h1,
 h2 {
+    font-weight: normal;
     line-height: 140%;
-    font-weight: 500;
+    margin-top: 24px;
     color: #291B1A;
 }
 
@@ -47,8 +48,21 @@ h2 {
     font-size: 1.5rem;
 }
 
-.introduction_list {
-    list-style: none;
+#overview {
+    margin-top: 12px;
+}
+
+ul {
+    list-style-position: inside;
+    margin-top: 8px;
+}
+
+#preparation p:nth-child(2) {
+    margin-top: 8px;
+}
+
+#preparation p+p {
+    margin-top: 16px;
 }
 
 .footer {
@@ -58,6 +72,5 @@ h2 {
 }
 
 .footer img {
-    width: 38px;
     vertical-align: middle;
 }
