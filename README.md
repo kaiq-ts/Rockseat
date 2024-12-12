@@ -1,6 +1,6 @@
-# Receipts Page
+# Pagina de receitas
 
-Simple receipt page using HTML and CSS.
+Simples pagina de receitas utilizando HTML e CSS.
 
 ## Tech Stack
 
