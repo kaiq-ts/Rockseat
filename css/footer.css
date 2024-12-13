@@ -1,0 +1,7 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    color: var(--text-color-on-bg);
+    margin-bottom: 48px;
+    gap: 5px;
+}

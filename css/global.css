@@ -1,0 +1,48 @@
+:root {
+    --background-color: #573824;
+    --surface-color: #F0E8C2;
+    --text-color-primary: #291B1A;
+    --text-color-secondary: #573A37;
+    --text-color-on-bg: #F0E8C2;
+    --font-family: 'Alice', serif;
+    --text-title: 2.5rem/140% var(--font-family);
+    --text-subtitle: 1.5rem/150% var(--font-family);
+    --text-paragraph: 1rem/150% var(--font-family);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: var(--text-paragraph);
+    background-color: var(--background-color);
+    color: var(--text-color-secondary);
+    background: url(../img/bg.jpg);
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 24px;
+    padding-inline: 24px;
+    padding-block: 24px;
+}
+
+img {
+    display: block;
+}
+
+h1 {
+    font: var(--text-title);
+    color: var(--text-color-primary);
+}
+
+h2 {
+    font: var(--text-subtitle);
+    color: var(--text-color-primary);
+}
