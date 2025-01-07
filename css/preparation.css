@@ -1,7 +1,7 @@
 #preparation p:nth-child(2) {
-    margin-top: 0.5rem;
+    margin-top: 8px;
 }
 
 #preparation p+p {
-    margin-top: 1rem;
+    margin-top: 16px;
 }
