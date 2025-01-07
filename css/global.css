@@ -27,14 +27,22 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    margin-top: 24px;
-    padding-inline: 24px;
-    padding-block: 24px;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    padding-inline: 1.5rem;
+    padding-block: 1.5rem;
 }
 
-img {
-    display: block;
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+    & img {
+        display: block;
+        border-radius: 1rem;
+    }
 }
 
 h1 {
@@ -45,4 +53,10 @@ h1 {
 h2 {
     font: var(--text-subtitle);
     color: var(--text-color-primary);
+}
+
+@media (width <= 51.25rem) {
+    img {
+        width: clamp(20rem, 50%, 47rem);
+    }
 }
