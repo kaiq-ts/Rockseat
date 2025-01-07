@@ -56,7 +56,7 @@ h2 {
 }
 
 @media (width <= 51.25rem) {
-    img {
+    .image img {
         width: clamp(20rem, 50%, 47rem);
     }
 }
