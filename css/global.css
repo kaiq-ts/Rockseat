@@ -5,8 +5,8 @@
     --text-color-secondary: #573A37;
     --text-color-on-bg: #F0E8C2;
     --font-family: 'Alice', serif;
-    --text-title: 2.5rem/140% var(--font-family);
-    --text-subtitle: 1.5rem/150% var(--font-family);
+    --text-title: 140% var(--font-family);
+    --text-subtitle: 150% var(--font-family);
     --text-paragraph: 1rem/150% var(--font-family);
 }
 
@@ -47,11 +47,13 @@ main {
 
 h1 {
     font: var(--text-title);
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
     color: var(--text-color-primary);
 }
 
 h2 {
     font: var(--text-subtitle);
+    font-size: clamp(1.2rem, 5vw, 1.5rem);
     color: var(--text-color-primary);
 }
 
