@@ -31,18 +31,13 @@ main {
     margin-top: 24px;
     padding-inline: 24px;
     padding-block: 24px;
+    background-clip: content-box;
 }
 
-.image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    
-    & img {
-        display: block;
-        border-radius: 16px;
-    }
+.image img {
+    display: block;
+    border-radius: 16px;
+    width: 100%;
 }
 
 h1 {
@@ -55,10 +50,4 @@ h2 {
     font: var(--text-subtitle);
     font-size: clamp(1.2rem, 5vw, 1.5rem);
     color: var(--text-color-primary);
-}
-
-@media (width <= 820px) {
-    .image img {
-        width: 100%;
-    }
 }
